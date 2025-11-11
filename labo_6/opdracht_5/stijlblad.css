@@ -1,0 +1,12 @@
+a {
+    background-image: url("images/link_symbool.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 16px;   /* verkleint het icoontje */
+    padding-left: 25px;      /* ruimte zodat tekst niet over icoon valt */
+    color: darkblue;
+}
+
+a:hover {
+    text-decoration: underline;
+}

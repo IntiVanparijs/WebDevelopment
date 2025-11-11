@@ -1,0 +1,22 @@
+.checklist {
+    list-style-type: none; /* standaard bullets weg */
+    padding: 0;
+}
+
+.checklist li {
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 25px;
+    margin: 5px 0;
+    background-size: 12px;
+}
+
+/* vinkje voor "checked" items */
+.checklist .checked {
+    background-image: url('images/checked.jpg');
+}
+
+/* leeg vakje voor niet-aangevinkte */
+.checklist li:not(.checked) {
+    background-image: url('images/unchecked.png');
+}
