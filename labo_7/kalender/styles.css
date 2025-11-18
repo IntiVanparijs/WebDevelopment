@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table.calendar {
+    border-collapse: collapse;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+.calendar th, .calendar td {
+    border: 1px solid #555;
+    width: 60px;
+    height: 40px;
+}
+
+.month-header th {
+    background: rgb(170, 170, 200);
+    font-size: 26px;
+    padding: 10px 0;
+}
+
+.day-header th {
+    background: rgb(35, 37, 70);
+    color: rgb(200, 190, 240);
+    padding: 6px 0;
+}
+
+.other-month {
+    background: rgb(220, 220, 220);
+}
+
+.calendar td:first-child,
+.calendar td:last-child {
+    background: rgb(255, 220, 220);
+}
+
+.holiday {
+    background: rgb(250, 120, 120);
+}

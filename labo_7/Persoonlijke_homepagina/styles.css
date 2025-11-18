@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+section {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+section h2 {
+    margin-top: 0;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 5px;
+}
+
+section img {
+    margin: 10px 0;
+}
+
+article {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #fafafa;
+}
+
+article h3 {
+    margin-top: 0;
+}
+
+a {
+    color: #0066cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #bbb;
+    padding: 8px;
+    text-align: center;
+}
+
+thead th {
+    background-color: #444;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #eee;
+}
+
+table.vrienden {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table.vrienden th,
+table.vrienden td {
+    border: 1px solid #bbb;
+    padding: 8px;
+    text-align: center;
+}
+
+table.vrienden th {
+    background-color: #444;
+    color: white;
+}
+
+table.vrienden tr.alt td {
+    background-color: #eee;
+}
+
+table.vrienden td.onbekend {
+    background-color: red;
+    color: white;
+}
+
+.vrienden td.onbekend {
+    background-color: red !important;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ddd;
+    margin-top: 20px;
+}
