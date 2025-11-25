@@ -1,0 +1,17 @@
+/* Padding en border mee in de breedte tellen */
+* {
+    box-sizing: border-box;
+}
+
+/* Container krijgt de extra ruimte */
+.container {
+    display: flex;
+    margin: 30px; /* 10px lege ruimte rondom beide kolommen */
+}
+
+/* Kolommen blijven exact 50% breed */
+section {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #333;
+}

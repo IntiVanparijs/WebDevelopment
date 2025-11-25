@@ -1,0 +1,16 @@
+/* Zorgt ervoor dat padding en border in de breedte worden meegerekend */
+* {
+    box-sizing: border-box;
+}
+
+/* Zet beide sections naast elkaar */
+.container {
+    display: flex;
+}
+
+/* Elke kolom neemt precies 50% in */
+section {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #333;
+}

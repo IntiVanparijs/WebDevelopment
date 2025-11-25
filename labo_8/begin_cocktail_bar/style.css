@@ -1,0 +1,65 @@
+body {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 95%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 150%;
+    color: rgb(0,126,126);
+}
+
+h2 {
+    font-size: 130%;
+    color: rgb(0,126,126);
+}
+
+#elixirs {
+    float: right;
+    width: 30%;
+    padding: 20px;
+
+    /* MARGE MAAR AAN 1 KANT! */
+    margin-left: 30px;
+    margin-right: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    background-color: #a7cece;
+    color: #444444;
+    border: 2px dotted white;
+    box-sizing: border-box;
+}
+
+#content {
+    float: left;
+    width: calc(70% - 30px); /* zodat er PLAATS IS voor de aside */
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+
+/* Blokje dat cursief + vet + achtergrond moet zijn */
+.color {
+    background-color: #e6f2f2;
+    padding: 10px;
+}
+
+#guarantee {
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Footer kleiner */
+footer {
+    font-size: 0.6em;
+    clear: both;
+    text-align: center;
+    padding: 10px;
+}
