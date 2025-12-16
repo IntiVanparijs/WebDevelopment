@@ -1,0 +1,14 @@
+.row > div {
+    padding: 30px;            / grote blokken zoals voorbeeld /
+    font-size: 2rem;
+    text-align: center;
+    border: 1px solid #ccc;   / dunne grijze rand zoals PDF /
+}
+
+.row > div:nth-child(odd) {
+    background-color: #ffffff;   / wit /
+}
+
+.row > div:nth-child(even) {
+    background-color: #f2f2f2;   / lichtgrijs zoals in PDF */
+}

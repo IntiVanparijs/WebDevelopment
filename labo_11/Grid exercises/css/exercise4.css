@@ -1,0 +1,47 @@
+.container {
+    background-color: cornflowerblue;
+    display: grid;
+    gap: 20px;
+
+    /* Groot scherm (standaard) */
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.container .block {
+    padding: 20px;
+    background-color: white;
+}
+
+/* Posities voor groot scherm (5x5 kruis) */
+
+/* Hoeken */
+.block1 { grid-column: 1; grid-row: 1; }
+.block2 { grid-column: 5; grid-row: 1; }
+.block3 { grid-column: 1; grid-row: 5; }
+.block4 { grid-column: 5; grid-row: 5; }
+
+/* Midden */
+.block5 { grid-column: 3; grid-row: 3; }
+
+/* Kruis */
+.block6 { grid-column: 3; grid-row: 1; }
+.block7 { grid-column: 3; grid-row: 5; }
+.block8 { grid-column: 1; grid-row: 3; }
+.block9 { grid-column: 5; grid-row: 3; }
+
+/* -------------------------------
+   Klein scherm (< 700px)
+-------------------------------- */
+@media (max-width: 700px) {
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    /* Reset expliciete plaatsing */
+    .container .block {
+        grid-column: auto;
+        grid-row: auto;
+    }
+}
