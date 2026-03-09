@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Oefening</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+<form>
+
+    <fieldset>
+        <legend>Persoonlijke informatie</legend>
+
+        <label for="first-name">Voornaam*</label>
+        <input type="text" id="first-name" name="first-name" placeholder="Your first name" required autofocus>
+
+        <label for="last-name">Familienaam*</label>
+        <input type="text" id="last-name" name="last-name" placeholder="Your last name" required>
+    </fieldset>
+
+    <fieldset>
+        <legend>Sport</legend>
+        <p>Welke sport beoefen je?</p>
+
+        <label><input type="checkbox" name="sport" value="lopen"> Lopen</label>
+        <label><input type="checkbox" name="sport" value="zwemmen"> Zwemmen</label>
+        <label><input type="checkbox" name="sport" value="roeien"> Roeien</label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Communicatievoorkeur</legend>
+
+        <p>Hoe kunnen we je bereiken?</p>
+        <label><input type="radio" name="contact" value="post"> Per post</label>
+        <label><input type="radio" name="contact" value="email"> E-mail</label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Favorieten</legend>
+
+        <label for="movie">Favoriete film:</label>
+        <input type="text" id="movie">
+
+        <label for="quote">Favoriete quote:</label>
+        <input type="text" id="quote" placeholder="Schrijf je favoriete quote">
+
+        <label for="food">Favoriete eten:</label>
+        <select id="food">
+            <option>Hamburger</option>
+            <option>Hot-dog</option>
+            <option selected>Pizza</option>
+        </select>
+
+        <label for="browser">Favoriete browser:</label>
+        <input type="text" id="browser">
+    </fieldset>
+
+    <fieldset>
+        <legend>Beveiliging & contact</legend>
+
+        <label for="password">Wachtwoord*</label>
+        <input type="password" id="password" required>
+
+        <label for="emails">E-mailadressen:</label>
+        <input type="email" id="emails" placeholder="Geef je e-mailadres in">
+
+        <label for="site">Favoriete site:</label>
+        <input type="url" id="site" placeholder="Geef de URL van je favoriete">
+    </fieldset>
+
+    <fieldset>
+        <legend>Extra informatie</legend>
+
+        <label for="num1">Favoriete getal tussen 1-10:</label>
+        <input type="number" id="num1" min="1" max="10">
+
+        <label for="num2">Favoriete getal tussen 11-1000:</label>
+        <input type="range" id="num2" min="11" max="1000">
+
+        <label for="dob">Wanneer ben je geboren?</label>
+        <input type="date" id="dob">
+
+        <label for="zip">Belgische postcode*</label>
+        <input type="number", id="zip", name="zip", min="1000", max="9992", placeholder="1000–9992", required >
+    </fieldset>
+
+    <fieldset>
+        <legend>Varia</legend>
+
+        <label for="search">Zoeken naar iets:</label>
+        <input type="search" id="search">
+
+        <label for="color">Wat is je lievelingskleur?</label>
+        <input type="color" id="color">
+
+        <label for="file">Bestand kiezen</label>
+        <input type="file" id="file">
+    </fieldset>
+
+    <button type="submit">Submit</button>
+
+</form>
+</body>
+</html>
