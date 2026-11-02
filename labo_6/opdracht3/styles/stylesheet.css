@@ -1,0 +1,44 @@
+body {
+    font-family: Helvetica;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: normal;
+}
+
+/* de 3 blokken */
+header, footer, .education {
+    padding: 30px;
+}
+
+header, footer {
+    background-color: #2B2D42;
+    color: #8D99AE;
+}
+
+header h1, header h2 {
+    color: #EDF2F4;
+}
+
+.education {
+    background-color: #8D99AE;
+}
+
+a {
+    color: #EF233C;
+}
+
+/* witruimte tussen de blokken */
+header {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 10px;
+}
