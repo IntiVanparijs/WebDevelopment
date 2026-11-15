@@ -1,0 +1,88 @@
+body{
+    width: 95%;
+    margin: 0 auto;
+    background-color:white;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+#hobbys li{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: lightgray;
+}
+
+#hobbys li:hover{
+    background-color: green;
+}
+
+#interesses li{
+    background-color: lightgray;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#interesses li:hover{
+    background-color: green;
+}
+
+header li{
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.vriendentabel {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    background: #fff;
+    border: 1px solid #006699;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.vriendentabel td,
+.vriendentabel th {
+    padding: 3px 10px;
+}
+
+.vriendentabel thead th {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F));
+    background: -moz-linear-gradient(center top, #006699 5%, #00557F 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+    background-color: #006699;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    border-left: 1px solid #00557F;
+}
+
+.vriendentabel thead th:first-child {
+    border: none;
+}
+
+.vriendentabel tbody td {
+    color: #00557F;
+    border-left: 1px solid #E1EEF4;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.vriendentabel tbody .alt td {
+    background: #E1EEF4;
+    color: #00557F;
+}
+
+.vriendentabel tbody td:first-child {
+    border-left: none;
+}
+
+.vriendentabel tbody tr:last-child td {
+    border-bottom: none;
+}

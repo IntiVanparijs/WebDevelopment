@@ -1,0 +1,35 @@
+body{
+    width:95%;
+    margin:0 auto;
+    font-family:Verdana;
+}
+
+header > h1{
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 40px;
+    height: 100px;
+    margin: 0;
+    padding: 5px 10px;
+}
+nav{
+    background-color:darkgreen;
+}
+
+nav a{
+    color:lightgreen;
+    padding:5px;
+    text-decoration:none;
+}
+
+article{
+    background-color: darkgrey;
+   margin: 5px;
+    padding: 5px;
+}
+
+header > h2{
+    text-decoration: underline;
+}
